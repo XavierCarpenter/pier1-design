@@ -144,7 +144,7 @@ background: #0a689d;
     height: 80vh;
 }
 .section1 h1, button, h3{
-    margin: 20px 0 0 24px;
+    /* margin: 20px 0 20px 24px; */
     font-family: 'Open Sans', sans-serif;    
 }
 .section1 h1{
@@ -234,8 +234,6 @@ font-size: 2.5em;
 }
 .styles-wrapper{
     height: 500px;
- 
-
     display: flex;
 }
 .style-container{
@@ -325,7 +323,6 @@ footer{
 .click-me{
     height: 171px;
     width: 268px;
-    background: rgb(255, 255, 255, .9);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,5 +367,43 @@ footer{
     width: 100vw;
     height: 150px;
     margin: 20px 0 0 0;
+}
+.section2 h1{
+    color: #0a689d;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.section2 h2{
+    color: #0a689d;
+    font-size: 18px;
+    /* letter-spacing: 7px; */
+    margin: 0 20px;
+    font-weight: 200;
+    margin: 0 0 10px 0;
+    
+}
+
+.style-container{
+flex-wrap: wrap;
+    overflow: auto;
+overflow-y: hidden;
+}
+.style-pic1{
+    height: 202px;
+    width: 281px;
+    
+}
+.style-pic2{
+ height: 202px;
+    width: 281px;
+  
+}
+.style-pic3{
+ height: 202px;
+    width: 281px;
+   
+    
 }
 }
