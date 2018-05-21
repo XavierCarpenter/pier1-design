@@ -1,7 +1,4 @@
 
-body{
-    height: 400vh;
-}
 header{
     width: 100%;
     display: flex;
@@ -215,6 +212,88 @@ background: #0a689d;
     font-size: 2em;
     /* letter-spacing: 7px; */
     font-weight: 200;
+}
+.section3{
+    height: 70vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.styles-title{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.styles-title h1{
+font-size: 2.5em;
+}
+.styles-title h3{
+    color: #0a689d;
+    font-size: 18px;
+}
+.styles-wrapper{
+    height: 500px;
+ 
+
+    display: flex;
+}
+.style-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f6;
+    margin: 0 20px 0 0;
+}
+.style-container:hover{
+    cursor: pointer;
+}
+.style-container h1{
+    /* width: 100px; */
+    font-size: 2em;
+    /* border-bottom: solid 1px #0a689d; */
+    padding: 0 0 30px 0;
+    margin: 10px 0 0 0 ;
+}
+.style-container p{
+    text-align: center;
+  width: 300px;
+
+}
+.style-container hr{
+    margin: 0 150px 20px 150px;
+    color: #0a689d;
+}
+.style-pic1{
+    height: 302px;
+    width: 381px;
+     background: url("https://images.unsplash.com/photo-1432303492674-642e9d0944b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e8ee660baa348701771b605ad2d15154&auto=format&fit=crop&w=2706&q=80");
+            background-repeat: no-repeat;
+    background-size: cover;
+}
+.style-pic2{
+    height: 302px;
+    width: 381px;
+     background: url("https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-0.3.5&s=d9e9fe8649144a11972a8cbb10ad6cd3&auto=format&fit=crop&w=2100&q=80");
+            background-repeat: no-repeat;
+    background-size: cover;
+}
+.style-pic3{
+    height: 302px;
+    width: 381px;
+     background: url("https://images.unsplash.com/photo-1498061390976-2b09e3889580?ixlib=rb-0.3.5&s=03c2cbff671b33341ddb43a769936b82&auto=format&fit=crop&w=1000&q=80");
+            background-repeat: no-repeat;
+    background-size: cover;
+      background-position: center bottom;
+    
+}
+footer{
+ 
+    background: #f6f6f6;  
+    width: 100%;  
+    height: 600px;
 }
 @media only screen and (max-width: 600px) {
   .nav2, .nav1{
