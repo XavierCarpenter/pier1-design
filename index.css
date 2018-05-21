@@ -146,7 +146,7 @@ background: #0a689d;
     width: 100vw;
     height: 80vh;
 }
-.section1 h1, h2, h3{
+.section1 h1, button, h3{
     margin: 20px 0 0 24px;
     font-family: 'Open Sans', sans-serif;    
 }
@@ -157,9 +157,10 @@ background: #0a689d;
 .section1 h3{
     font-weight: 200;
 }
-.section1 h2{
+.section1 button{
     color: #0a689d;
     font-weight: 700;
+    
 }
 .section1 h2:hover{
     cursor: pointer;
@@ -192,17 +193,37 @@ background: #0a689d;
 .section2{
     width: 100vw;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   background: url("https://images.unsplash.com/photo-1521798903226-9c2e199e3c74?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0e256e7f88dbed75c38ae0c96d4e74f5&auto=format&fit=crop&w=1482&q=80");
             background-repeat: no-repeat;
     background-size: cover;
       background-position: center center;
     margin: 20px 0 0 0;
+    text-align: center;
+}
+.section2 h1{
+    color: #0a689d;
+    font-size: 6em;
+    letter-spacing: 7px;
+    font-weight: 200;
+}
+.section2 h2{
+    color: #0a689d;
+    font-size: 2em;
+    /* letter-spacing: 7px; */
+    font-weight: 200;
 }
 @media only screen and (max-width: 600px) {
   .nav2, .nav1{
       display: none;
   }
   .mobile-nav{
+    position: fixed;
+    background: white;
+    width: 100%;
     display: flex;
     flex-direction: row;
     height: 60px;
@@ -254,5 +275,21 @@ background: #0a689d;
     width: 100%;
     height: 65%;
     margin: 0 30px 0 30px;
+}
+.section1 h1, h3{
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;    
+}
+.section1 button{
+    margin: 15px 0 0 125px ;
+}
+.pic1, .pic2{
+    height: 55%;
+}
+.section2{
+    width: 100vw;
+    height: 150px;
+    margin: 20px 0 0 0;
 }
 }
